@@ -6,7 +6,7 @@ for ($i=0; $i<=10; $i++) {
 
 $premiere = 0;
 $deuxieme = 30;
-while ($premiere < 20) {
+while ($premiere <= 20) {
     echo $premiere * $deuxieme . "<br>";
     $premiere++;
 }
